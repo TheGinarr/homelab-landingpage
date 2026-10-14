@@ -44,6 +44,14 @@ Impressum und Datenschutzerklärung sind **Vorlagen, keine Rechtsberatung**. Sie
 
 Passe die Texte an deinen tatsächlichen Betrieb an.
 
+## Code-Stil
+
+Der Code ist mit [Prettier](https://prettier.io) formatiert (2 Leerzeichen, max. 100 Zeichen pro Zeile, siehe `.prettierrc.json` und `.editorconfig`):
+
+```bash
+npx prettier --write "*.html" "assets/*.css" "assets/*.js"
+```
+
 ## Lizenz
 
 - Code und Texte: [MIT](LICENSE)
